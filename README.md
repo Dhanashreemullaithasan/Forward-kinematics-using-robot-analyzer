@@ -1,14 +1,16 @@
 # Forward-kinematics-using-robo-analyzer
 
 ## AIM: 
+
 To analyze the forward kinematics using DH paramerters for a 4 and 6 dof robot using roboanalyzer and polt the graph for link cordinates and joint angles
 ### COMPONENTS REQUIRED:
+
 1.Robo analyzer software  
 
 
 ### THEORY: 
   
-Forward Kinematics
+## Forward Kinematics
 
 A manipulator is composed of serial links which are affixed to each other revolute or prismatic joints from the base frame through the endeffector. 
 Calculating the position and orientation of the endeffector in terms of the joint variables is called as forward kinematics. 
@@ -27,25 +29,41 @@ ai for the link length. Once I’ve obtained them, I can just plug them in to th
 
 ![image](https://user-images.githubusercontent.com/36288975/170172719-ed7befc9-2894-4344-bfd5-be831bb05308.png)
 
- ![image](https://user-images.githubusercontent.com/36288975/170172766-b8aeb788-7fd7-4de7-b340-f04656707ebd.png)
+![image](https://user-images.githubusercontent.com/36288975/170172766-b8aeb788-7fd7-4de7-b340-f04656707ebd.png)
 
  
 
 ### PROCEDURE:
+```
+1.Open the roboanalyzer software.
+
+2.Select the robot and the degrees of freedom.
+
+3.Change the values with the link length wherever necessary.
+
+4.Simulate the model for forward kinematics.
+
+5.Plot the graph between the link and the joints.
+
+6.Update the DH parameters of the link configuration and end effector configuration.
+```
+
+### SIMULATION :
+
+![output](./img1.png)
+![output](./img2.png)
+![output](./img3.png)
+![output](./img4.png) 
 
 
+ ### PLOT :
 
+![output](./img5.png) 
+![output](./img6.png)
 
+### Result :
 
-### SIMULATION 
- 
- 
- 
- 
- 
- 
- 
- ### PLOT 
+Thus the forward kinematics using DH paramerters for a 4 and 6 dof robot using roboanalyzer and the graph for link cordinates and joint angles has been plotted and analyzed.
  
  
  
